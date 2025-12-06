@@ -1,11 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html>
+  <head>
+    <title>Task Manager</title>
+  </head>
+  <body>
+      <header><h1>Task Manager</h1></header>
+      <main>
+        <!-- Add new task -->
+        <section>
+            <h3>Add New Task</h3>
+            <form>
+              <input type="text" placeholder="Task title...">
+              <select>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+              </select>
+              <button type="submit">Add Task</button>
+            </form>
+        </section>
+        <!-- My task list -->
+        <section>
+
+          <h3>My Tasks</h3> 
+          <div>
+            <div>
+              <h4>Test task</h4>
+              <span>medium</span>
+              <button>Done</button>
+              <button>Delete</button>
+            </div>
+
+            <div>
+              <h4>Another Task</h4>
+              <span>high</span>
+              <button>Done</button>
+              <button>Delete</button>
+            </div>
+
+          </div>
+
+        </section>
+
+      </main>
+      <footer>Copyrights &copy; 2025
+      </footer>
+  </body>
 </html>
